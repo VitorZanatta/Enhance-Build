@@ -1,0 +1,1003 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Rmetrics - Portfolio Selection and Optimization</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Rmetrics - Portfolio Selection and Optimization
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;fPortfolio&rsquo; version 3011.81</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#I">I</a>
+<a href="#K">K</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#P">P</a>
+<a href="#Q">Q</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#V">V</a>
+<a href="#W">W</a>
+</p>
+
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="monitor-stability.html">addRainbow</a></td>
+<td>Monitoring Stability</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplDataAdd</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplDataAddMatrix</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplDataAddValue</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplDataAddVector</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplDataOpen</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplDataSemicolon</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplDataShow</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">amplLP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">amplLPControl</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplModelAdd</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplModelOpen</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplModelShow</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">amplNLP</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">amplNLPControl</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplOutShow</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">amplQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">amplQPControl</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplRunAdd</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplRunOpen</a></td>
+<td>AMPL Interface</td></tr>
+<tr><td style="width: 25%;"><a href="solver-ampl.html">amplRunShow</a></td>
+<td>AMPL Interface</td></tr>
+</table>
+
+<h2><a name="B">-- B --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="backtest-plots.html">backtestAssetsPlot</a></td>
+<td>Portfolio backtesting plots</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-plots.html">backtestDrawdownPlot</a></td>
+<td>Portfolio backtesting plots</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-plots.html">backtestPlot</a></td>
+<td>Portfolio backtesting plots</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-plots.html">backtestPortfolioPlot</a></td>
+<td>Portfolio backtesting plots</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-plots.html">backtestRebalancePlot</a></td>
+<td>Portfolio backtesting plots</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-plots.html">backtestReportPlot</a></td>
+<td>Portfolio backtesting plots</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-statisitics.html">backtestStats</a></td>
+<td>Rolling portfolio backtesting statistics</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-plots.html">backtestWeightsPlot</a></td>
+<td>Portfolio backtesting plots</td></tr>
+<tr><td style="width: 25%;"><a href="monitor-stability.html">bcpAnalytics</a></td>
+<td>Monitoring Stability</td></tr>
+<tr><td style="width: 25%;"><a href="risk-surfaceRisk.html">bestDiversification</a></td>
+<td>Surface Risk Analytics</td></tr>
+<tr><td style="width: 25%;"><a href="risk-budgeting.html">budgetsModifiedES</a></td>
+<td>Risk Budgeting</td></tr>
+<tr><td style="width: 25%;"><a href="risk-budgeting.html">budgetsModifiedVAR</a></td>
+<td>Risk Budgeting</td></tr>
+<tr><td style="width: 25%;"><a href="risk-budgeting.html">budgetsNormalES</a></td>
+<td>Risk Budgeting</td></tr>
+<tr><td style="width: 25%;"><a href="risk-budgeting.html">budgetsNormalVAR</a></td>
+<td>Risk Budgeting</td></tr>
+<tr><td style="width: 25%;"><a href="risk-budgeting.html">budgetsSampleCOV</a></td>
+<td>Risk Budgeting</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOBACKTEST.html">class-fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtesting specifications</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOCON.html">class-fPFOLIOCON</a></td>
+<td>Portfolio Constraints Handling</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIODATA.html">class-fPFOLIODATA</a></td>
+<td>Portfolio Data Handling</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOSPEC.html">class-fPFOLIOSPEC</a></td>
+<td>Specification of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOVAL.html">class-fPFOLIOVAL</a></td>
+<td>Values of Portfolio Frontiers</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPORTFOLIO.html">class-fPORTFOLIO</a></td>
+<td>Portfolio Class</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">cmlLines</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">cmlPoints</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">covEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">covMcdEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">covOGKEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-pfolioRisk.html">covRisk</a></td>
+<td>portfolioRisk</td></tr>
+<tr><td style="width: 25%;"><a href="weights-linePlots.html">covRiskBudgetsLinePlot</a></td>
+<td>Portfolio Weights Line Plots</td></tr>
+<tr><td style="width: 25%;"><a href="weights-piePlots.html">covRiskBudgetsPie</a></td>
+<td>Portfolio Pie Plots</td></tr>
+<tr><td style="width: 25%;"><a href="weights-barPlots.html">covRiskBudgetsPlot</a></td>
+<td>Portfolio Weights Bar Plots</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-pfolioRisk.html">cvarRisk</a></td>
+<td>portfolioRisk</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="solve-environment.html">Data</a></td>
+<td>Nonlinear Objective Presettings</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">dataSets</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">donlp2NLP</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">donlp2NLPControl</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="monitor-stability.html">drawdownsAnalytics</a></td>
+<td>Monitoring Stability</td></tr>
+</table>
+
+<h2><a name="E">-- E --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="data-sets.html">ECON85</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">ECON85LONG</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-efficientPfolio.html">efficientPortfolio</a></td>
+<td>Efficient Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-functions.html">emaSmoother</a></td>
+<td>User defined functions to perform portfolio backtesting</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">eqsumWConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">equalWeightsPoints</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-functions.html">equidistWindows</a></td>
+<td>User defined functions to perform portfolio backtesting</td></tr>
+</table>
+
+<h2><a name="F">-- F --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="risk-surfaceRisk.html">feasibleGrid</a></td>
+<td>Surface Risk Analytics</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-feasiblePfolio.html">feasiblePortfolio</a></td>
+<td>Feasible Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOBACKTEST.html">fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtesting specifications</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOBACKTEST.html">fPFOLIOBACKTEST-class</a></td>
+<td>Portfolio backtesting specifications</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOCON.html">fPFOLIOCON</a></td>
+<td>Portfolio Constraints Handling</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOCON.html">fPFOLIOCON-class</a></td>
+<td>Portfolio Constraints Handling</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIODATA.html">fPFOLIODATA</a></td>
+<td>Portfolio Data Handling</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIODATA.html">fPFOLIODATA-class</a></td>
+<td>Portfolio Data Handling</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOSPEC.html">fPFOLIOSPEC</a></td>
+<td>Specification of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOSPEC.html">fPFOLIOSPEC-class</a></td>
+<td>Specification of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOVAL.html">fPFOLIOVAL</a></td>
+<td>Values of Portfolio Frontiers</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOVAL.html">fPFOLIOVAL-class</a></td>
+<td>Values of Portfolio Frontiers</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPORTFOLIO.html">fPORTFOLIO</a></td>
+<td>Portfolio Class</td></tr>
+<tr><td style="width: 25%;"><a href="00fPortfolio-package.html">fPortfolio</a></td>
+<td>Portfolio Design, Optimization and Backtesting</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPORTFOLIO.html">fPORTFOLIO-class</a></td>
+<td>Portfolio Class</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">frontierPlot</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-PlotControl.html">frontierPlotControl</a></td>
+<td>Frontier Plot Control List</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Points.html">frontierPoints</a></td>
+<td>Get Frontier Points</td></tr>
+</table>
+
+<h2><a name="G">-- G --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="monitor-stability.html">garchAnalytics</a></td>
+<td>Monitoring Stability</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">GCCINDEX</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">GCCINDEX.DF</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">GCCINDEX.RET</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getA</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getA.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getA.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getAlpha</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getAlpha.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getVal.html">getAlpha.fPFOLIOVAL</a></td>
+<td>PortfolioVal Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getAlpha.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getConstraints</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getConstraints.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getConstraintsTypes</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getControl</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getControl.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getControl.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getCov</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getCov.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getCov.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getCovRiskBudgets</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getVal.html">getCovRiskBudgets.fPFOLIOVAL</a></td>
+<td>PortfolioVal Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getCovRiskBudgets.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getData</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getData.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getData.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getDefault</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getEstimator</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getEstimator.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getEstimator.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getEstimator.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getMean</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getMean.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getMean.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getMessages</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getMessages.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getMessages.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getModel</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getModel.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getModel.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getMu</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getMu.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getMu.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getNAssets</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getNAssets.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getNAssets.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getNFrontierPoints</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getNFrontierPoints.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getVal.html">getNFrontierPoints.fPFOLIOVAL</a></td>
+<td>PortfolioVal Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getNFrontierPoints.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getObjective</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getObjective.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getObjective.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getOptim</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getOptim.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getOptim.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getOptimize</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getOptimize.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getOptimize.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getOptions</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getOptions.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getOptions.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getParams</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getParams.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getParams.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getPortfolio</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getPortfolio.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getVal.html">getPortfolio.fPFOLIOVAL</a></td>
+<td>PortfolioVal Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getPortfolio.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getRiskFreeRate</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getRiskFreeRate.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getVal.html">getRiskFreeRate.fPFOLIOVAL</a></td>
+<td>PortfolioVal Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getRiskFreeRate.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getSeries</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getSeries.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getSeries.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getSigma</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getSigma.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getSigma.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getSmoother</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getSmoother.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getSmootherDoubleSmoothing</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getSmootherDoubleSmoothing.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getSmootherFun</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getSmootherFun.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getSmootherInitialWeights</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getSmootherInitialWeights.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getSmootherLambda</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getSmootherLambda.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getSmootherParams</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getSmootherParams.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getSmootherSkip</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getSmootherSkip.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getSolver</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getSolver.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getSolver.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getSpec</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getSpec.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getStatistics</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getStatistics.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getStatistics.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getStatus</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getStatus.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getVal.html">getStatus.fPFOLIOVAL</a></td>
+<td>PortfolioVal Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getStatus.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getStrategy</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getStrategy.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getStrategyFun</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getStrategyFun.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getStrategyParams</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getStrategyParams.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getTailRisk</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getTailRisk.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getTailRisk.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getTailRisk.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getTailRiskBudgets</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getTailRiskBudgets.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getTargetReturn</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getTargetReturn.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getVal.html">getTargetReturn.fPFOLIOVAL</a></td>
+<td>PortfolioVal Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getTargetReturn.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getTargetRisk</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getTargetRisk.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getVal.html">getTargetRisk.fPFOLIOVAL</a></td>
+<td>PortfolioVal Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getTargetRisk.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getTrace</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getTrace.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getTrace.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getType</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getType.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getType.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getUnits</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getData.html">getUnits.fPFOLIODATA</a></td>
+<td>Portfolio Data Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getUnits.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getDefault.html">getWeights</a></td>
+<td>Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getSpec.html">getWeights.fPFOLIOSPEC</a></td>
+<td>Portfolio Specification Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getVal.html">getWeights.fPFOLIOVAL</a></td>
+<td>PortfolioVal Extractor Functions</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-getPortfolio.html">getWeights.fPORTFOLIO</a></td>
+<td>Portfolio Class Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getWindows</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getWindows.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getWindowsFun</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getWindowsFun.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getWindowsHorizon</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getWindowsHorizon.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-getMethods.html">getWindowsParams</a></td>
+<td>Portfolio Backtest Extractors</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-extractors.html">getWindowsParams.fPFOLIOBACKTEST</a></td>
+<td>Portfolio backtest specification extractors</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">glpkLP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">glpkLPControl</a></td>
+<td>Mathematical Linear Programming</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">ipopQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">ipopQPControl</a></td>
+<td>Mathematical Linear Programming</td></tr>
+</table>
+
+<h2><a name="K">-- K --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">kendallEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">kestrelQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">kestrelQPControl</a></td>
+<td>Mathematical Linear Programming</td></tr>
+</table>
+
+<h2><a name="L">-- L --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">lambdaCVaR</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">listFConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">lpmEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">LPP2005</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">LPP2005.RET</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">LPP2005.RET.DF</a></td>
+<td>Assets Data Sets</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="risk-surfaceRisk.html">markowitzHull</a></td>
+<td>Surface Risk Analytics</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">maxBConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">maxBuyinConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">maxCardConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="risk-ternaryMap.html">maxddMap</a></td>
+<td>Creates and Plots a Ternary Map</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">maxFConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-efficientPfolio.html">maxratioPortfolio</a></td>
+<td>Efficient Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-efficientPfolio.html">maxreturnPortfolio</a></td>
+<td>Efficient Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">maxsumWConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">maxWConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">mcdEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">minBConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">minBuyinConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">minCardConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">minFConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-efficientPfolio.html">minriskPortfolio</a></td>
+<td>Efficient Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">minsumWConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">minvariancePoints</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-efficientPfolio.html">minvariancePortfolio</a></td>
+<td>Efficient Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">minWConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="risk-budgeting.html">modifiedVaR</a></td>
+<td>Risk Budgeting</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">monteCarloPoints</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">mveEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+</table>
+
+<h2><a name="N">-- N --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">nCardConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">neosLP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">neosLPControl</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">neosQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">neosQPControl</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-performance.html">netPerformance</a></td>
+<td>Portfolio backtesting net performance</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">nlminb2NLP</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">nlminb2NLPControl</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">nnveEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="risk-budgeting.html">normalVaR</a></td>
+<td>Risk Budgeting</td></tr>
+</table>
+
+<h2><a name="P">-- P --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="monitor-stability.html">parAnalytics</a></td>
+<td>Monitoring Stability</td></tr>
+<tr><td style="width: 25%;"><a href="monitor-stability.html">pcoutAnalytics</a></td>
+<td>Monitoring Stability</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">pfolioCVaR</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">pfolioCVaRplus</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">pfolioHist</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">pfolioMaxLoss</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">pfolioReturn</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-pfolioRisk.html">pfolioRisk</a></td>
+<td>portfolioRisk</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">pfolioSigma</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">pfolioTargetReturn</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">pfolioTargetRisk</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">pfolioVaR</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="methods-plot.html">plot-methods</a></td>
+<td>plot-methods</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPORTFOLIO.html">plot.fPORTFOLIO</a></td>
+<td>Portfolio Class</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-specification.html">portfolioBacktest</a></td>
+<td>Specification of portfolio backtesting</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-portfolios.html">portfolioBacktesting</a></td>
+<td>Portfolio backtesting</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Constraints.html">portfolioConstraints</a></td>
+<td>Portfolio Constraints</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIODATA.html">portfolioData</a></td>
+<td>Portfolio Data Handling</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Data.html">portfolioData2</a></td>
+<td>portfolioData2</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Frontier.html">portfolioFrontier</a></td>
+<td>Efficient Portfolio Frontier</td></tr>
+<tr><td style="width: 25%;"><a href="solve-environment.html">portfolioObjective</a></td>
+<td>Nonlinear Objective Presettings</td></tr>
+<tr><td style="width: 25%;"><a href="solve-environment.html">portfolioReturn</a></td>
+<td>Nonlinear Objective Presettings</td></tr>
+<tr><td style="width: 25%;"><a href="solve-environment.html">portfolioRisk</a></td>
+<td>Nonlinear Objective Presettings</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Rolling.html">portfolioRolling</a></td>
+<td>Rolling Portfolio</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-portfolios.html">portfolioSmoothing</a></td>
+<td>Portfolio backtesting</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-portfolioSpec.html">portfolioSpec</a></td>
+<td>Specification of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="utils-methods.html">print.solver</a></td>
+<td>Print Method for Solvers</td></tr>
+</table>
+
+<h2><a name="Q">-- Q --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">quadprogQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">quadprogQPControl</a></td>
+<td>Mathematical Linear Programming</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">ramplLP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">ramplNLP</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">ramplQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">rdonlp2</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">rdonlp2NLP</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">rglpkLP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">ripopQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="weights-barPlots.html">riskBudgetsPlot</a></td>
+<td>Portfolio Weights Bar Plots</td></tr>
+<tr><td style="width: 25%;"><a href="risk-ternaryMap.html">riskMap</a></td>
+<td>Creates and Plots a Ternary Map</td></tr>
+<tr><td style="width: 25%;"><a href="monitor-stability.html">riskmetricsAnalytics</a></td>
+<td>Monitoring Stability</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-riskPfolio.html">riskPfolio</a></td>
+<td>Risk and Related Measures for Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="risk-surfaceRisk.html">riskSurface</a></td>
+<td>Surface Risk Analytics</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">rkestrelQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">rneosLP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">rneosQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">rnlminb2</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">rnlminb2NLP</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-statisitics.html">rollingCDaR</a></td>
+<td>Rolling portfolio backtesting statistics</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Rolling.html">rollingCmlPortfolio</a></td>
+<td>Rolling Portfolio</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-statisitics.html">rollingCVaR</a></td>
+<td>Rolling portfolio backtesting statistics</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-statisitics.html">rollingDaR</a></td>
+<td>Rolling portfolio backtesting statistics</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Rolling.html">rollingMinvariancePortfolio</a></td>
+<td>Rolling Portfolio</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Rolling.html">rollingPortfolio</a></td>
+<td>Rolling Portfolio</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Rolling.html">rollingPortfolioFrontier</a></td>
+<td>Rolling Portfolio</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-statisitics.html">rollingRiskBudgets</a></td>
+<td>Rolling portfolio backtesting statistics</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-statisitics.html">rollingSigma</a></td>
+<td>Rolling portfolio backtesting statistics</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Rolling.html">rollingTangencyPortfolio</a></td>
+<td>Rolling Portfolio</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-statisitics.html">rollingVaR</a></td>
+<td>Rolling portfolio backtesting statistics</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-Rolling.html">rollingWindows</a></td>
+<td>Rolling Portfolio</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">rquadprog</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">rquadprogQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">rsolnp</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">rsolnpNLP</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">rsolveLP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-QP.html">rsolveQP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">rsymphonyLP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="risk-budgeting.html">sampleCOV</a></td>
+<td>Risk Budgeting</td></tr>
+<tr><td style="width: 25%;"><a href="risk-budgeting.html">sampleVaR</a></td>
+<td>Risk Budgeting</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setAlpha&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setBacktest</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setEstimator&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setNFrontierPoints&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setObjective&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setOptimize&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setParams&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setRiskFreeRate&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setSmootherDoubleSmoothing&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setSmootherFun&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setSmootherInitialWeights&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setSmootherLambda&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setSmootherParams&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setSmootherSkip&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setSolver&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setSpec</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setStatus&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setStrategyFun&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setStrategyParams&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setTailRisk&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setTargetReturn&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setTargetRisk&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setTrace&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setType&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-setSpec.html">setWeights&lt;-</a></td>
+<td>Settings for Specifications of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setWindowsFun&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setWindowsHorizon&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-constructors.html">setWindowsParams&lt;-</a></td>
+<td>Specification of backtesting portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">sharpeRatioLines</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOBACKTEST.html">show-method</a></td>
+<td>Portfolio backtesting specifications</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOCON.html">show-method</a></td>
+<td>Portfolio Constraints Handling</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIODATA.html">show-method</a></td>
+<td>Portfolio Data Handling</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOSPEC.html">show-method</a></td>
+<td>Specification of Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPFOLIOVAL.html">show-method</a></td>
+<td>Values of Portfolio Frontiers</td></tr>
+<tr><td style="width: 25%;"><a href="methods-show.html">show-method</a></td>
+<td>Portfolio Print Methods</td></tr>
+<tr><td style="width: 25%;"><a href="methods-show.html">show-methods</a></td>
+<td>Portfolio Print Methods</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">shrinkEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">singleAssetPoints</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">slpmEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">SMALLCAP</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">SMALLCAP.RET</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">SMALLCAP.RET.DF</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">solnpNLP</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-NLP.html">solnpNLPControl</a></td>
+<td>Mathematical Non-Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRampl.CVAR</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRampl.MV</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRdonlp2</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRglpk.CVAR</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRglpk.MAD</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRipop</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRquadprog</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRquadprog.CLA</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRshortExact</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRsocp</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="solver-rfamily.html">solveRsolnp</a></td>
+<td>LP, QP, and NLP Programming Solvers</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-covEstimator.html">spearmanEstimator</a></td>
+<td>Covariance Estimators</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">SPISECTOR</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">SPISECTOR.DF</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">SPISECTOR.RET</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="monitor-stability.html">stabilityAnalytics</a></td>
+<td>Monitoring Stability</td></tr>
+<tr><td style="width: 25%;"><a href="methods-summary.html">summary-methods</a></td>
+<td>summary-methods</td></tr>
+<tr><td style="width: 25%;"><a href="a-class-fPORTFOLIO.html">summary.fPORTFOLIO</a></td>
+<td>Portfolio Class</td></tr>
+<tr><td style="width: 25%;"><a href="risk-surfaceRisk.html">surfacePlot</a></td>
+<td>Surface Risk Analytics</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">SWX</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">SWX.DF</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="data-sets.html">SWX.RET</a></td>
+<td>Assets Data Sets</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">symphonyLP</a></td>
+<td>Mathematical Linear Programming</td></tr>
+<tr><td style="width: 25%;"><a href="mathprog-LP.html">symphonyLPControl</a></td>
+<td>Mathematical Linear Programming</td></tr>
+</table>
+
+<h2><a name="T">-- T --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">tailoredFrontierPlot</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="weights-piePlots.html">tailRiskBudgetsPie</a></td>
+<td>Portfolio Pie Plots</td></tr>
+<tr><td style="width: 25%;"><a href="weights-barPlots.html">tailRiskBudgetsPlot</a></td>
+<td>Portfolio Weights Bar Plots</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">tangencyLines</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">tangencyPoints</a></td>
+<td>Efficient Frontier Plot</td></tr>
+<tr><td style="width: 25%;"><a href="portfolio-efficientPfolio.html">tangencyPortfolio</a></td>
+<td>Efficient Portfolios</td></tr>
+<tr><td style="width: 25%;"><a href="backtest-functions.html">tangencyStrategy</a></td>
+<td>User defined functions to perform portfolio backtesting</td></tr>
+<tr><td style="width: 25%;"><a href="risk-ternaryMap.html">ternaryCoord</a></td>
+<td>Creates and Plots a Ternary Map</td></tr>
+<tr><td style="width: 25%;"><a href="risk-ternaryMap.html">ternaryFrontier</a></td>
+<td>Creates and Plots a Ternary Map</td></tr>
+<tr><td style="width: 25%;"><a href="risk-ternaryMap.html">ternaryMap</a></td>
+<td>Creates and Plots a Ternary Map</td></tr>
+<tr><td style="width: 25%;"><a href="risk-ternaryMap.html">ternaryPoints</a></td>
+<td>Creates and Plots a Ternary Map</td></tr>
+<tr><td style="width: 25%;"><a href="risk-ternaryMap.html">ternaryWeights</a></td>
+<td>Creates and Plots a Ternary Map</td></tr>
+<tr><td style="width: 25%;"><a href="monitor-stability.html">turnsAnalytics</a></td>
+<td>Monitoring Stability</td></tr>
+<tr><td style="width: 25%;"><a href="frontier-Plot.html">twoAssetsLines</a></td>
+<td>Efficient Frontier Plot</td></tr>
+</table>
+
+<h2><a name="V">-- V --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="portfolio-pfolioRisk.html">varRisk</a></td>
+<td>portfolioRisk</td></tr>
+</table>
+
+<h2><a name="W">-- W --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="monitor-stability.html">waveletSpectrum</a></td>
+<td>Monitoring Stability</td></tr>
+<tr><td style="width: 25%;"><a href="weights-linePlots.html">weightedReturnsLinePlot</a></td>
+<td>Portfolio Weights Line Plots</td></tr>
+<tr><td style="width: 25%;"><a href="weights-piePlots.html">weightedReturnsPie</a></td>
+<td>Portfolio Pie Plots</td></tr>
+<tr><td style="width: 25%;"><a href="weights-barPlots.html">weightedReturnsPlot</a></td>
+<td>Portfolio Weights Bar Plots</td></tr>
+<tr><td style="width: 25%;"><a href="weights-linePlots.html">weightsLinePlot</a></td>
+<td>Portfolio Weights Line Plots</td></tr>
+<tr><td style="width: 25%;"><a href="weights-piePlots.html">weightsPie</a></td>
+<td>Portfolio Pie Plots</td></tr>
+<tr><td style="width: 25%;"><a href="weights-barPlots.html">weightsPlot</a></td>
+<td>Portfolio Weights Bar Plots</td></tr>
+<tr><td style="width: 25%;"><a href="weights-Slider.html">weightsSlider</a></td>
+<td>Portfolio Weights Slider</td></tr>
+</table>
+</body></html>

@@ -1,0 +1,34 @@
+################################################################################
+## Exports
+################################################################################
+exportPattern("^[^\\.]")
+
+# Needed within the portfolio book
+export(.fportfolio.plot.1)
+export(.fportfolio.plot.2)
+export(.fportfolio.plot.3)
+export(.fportfolio.plot.4)
+export(.fportfolio.plot.5)
+export(.fportfolio.plot.6)
+export(.fportfolio.plot.7)
+export(.fportfolio.plot.8)
+
+################################################################################
+## Imports
+################################################################################
+import(methods)
+import(timeDate)
+import(timeSeries)
+import(fBasics)
+import(fAssets)
+
+import(fCopulae)
+import(robustbase)
+import(MASS)
+import(Rglpk)
+import(slam)
+import(Rsymphony)
+import(Rsolnp)
+import(kernlab)
+import(quadprog)
+import(rneos)

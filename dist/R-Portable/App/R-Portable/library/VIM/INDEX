@@ -1,0 +1,51 @@
+SBS5242                 Synthetic subset of the Austrian structural
+                        business statistics data
+VIM-package             Visualization and Imputation of Missing Values
+aggr                    Aggregations for missing/imputed values
+alphablend              Alphablending for colors
+barMiss                 Barplot with information about missing/imputed
+                        values
+bgmap                   Backgound map
+chorizonDL              C-horizon of the Kola data with missing values
+colSequence             HCL and RGB color sequences
+colormapMiss            Colored map with information about
+                        missing/imputed values
+countInf                Count number of infinite or missing values
+growdotMiss             Growing dot map with information about
+                        missing/imputed values
+histMiss                Histogram with information about
+                        missing/imputed values
+hotdeck                 Hot-Deck Imputation
+initialise              Initialization of missing values
+irmi                    Iterative robust model-based imputation (IRMI)
+kNN                     k-Nearest Neighbour Imputation
+kola.background         Background map for the Kola project data
+mapMiss                 Map with information about missing/imputed
+                        values
+marginmatrix            Marginplot Matrix
+marginplot              Scatterplot with additional information in the
+                        margins
+matrixplot              Matrix plot
+mosaicMiss              Mosaic plot with information about
+                        missing/imputed values
+pairsVIM                Scatterplot Matrices
+parcoordMiss            Parallel coordinate plot with information about
+                        missing/imputed values
+pbox                    Parallel boxplots with information about
+                        missing/imputed values
+prepare                 Transformation and standardization
+print.summary.aggr      Print method for objects of class summary.aggr
+regressionImp           Regression Imputation
+rugNA                   Rug representation of missing/imputed values
+scattJitt               Bivariate jitter plot
+scattMiss               Scatterplot with information about
+                        missing/imputed values
+scattmatrixMiss         Scatterplot matrix with information about
+                        missing/imputed values
+sleep                   Mammal sleep data
+spineMiss               Spineplot with information about
+                        missing/imputed values
+tao                     Tropical Atmosphere Ocean (TAO) project data
+testdata                Simulated data set for testing purpose
+vmGUIenvir              Environment for the GUI for Visualization and
+                        Imputation of Missing Values

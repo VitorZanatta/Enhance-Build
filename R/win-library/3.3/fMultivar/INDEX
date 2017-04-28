@@ -1,0 +1,21 @@
+                        Multivariate Skew Cauchy Distribution
+                        Multivariate Skew-Normal Distribution
+                        Multivariate Skew Student-t Distribution
+                        Multivariate Normal Distribution
+                        Multivariate Student-t Distribution
+adapt                   Integrator for multivariate distributions
+cauchy2d                Bivariate Cauchy Distribution
+density2d               Bivariate Density Tools
+elliptical2d            Bivariate Elliptical Densities
+fMultivar-package       Modelling Multivariate Return Distributions
+grid2d                  Bivariate Density Tools
+integrate2d             Bivariate Integration Tools
+mscFit                  Multivariate Skew Cauchy Parameter Estimation
+msnFit                  Multivariate Skew Normal Parameter Estimation
+mstFit                  Multivariate Skew Student-t Parameter
+                        Estimation
+mvstnorm                Obsolete Functions
+norm2d                  Bivariate Normal Distribution
+t2d                     Bivariate Student-t Distribution
+utils-binning2          Square and Hexagonal Data Binning
+utils-gridding2         Bivariate Gridded Data Sets

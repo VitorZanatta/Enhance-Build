@@ -1,0 +1,22 @@
+assetsArrange           Rearranging Assets Columnwise
+assetsDist              Distance Measures
+assetsFit               Modeling Multivariate Asset Sets
+assetsLPM               Computation of Lower Partial Moments of Asset
+                        Sets
+assetsMeanCov           Estimation of Mean and Covariances of Asset
+                        Sets
+assetsOutliers          Detection of Outliers in Asset Sets
+assetsQQNormPlot        Normal Quantile-Quantile Plots
+assetsSelect            Selecting Assets from Multivariate Asset Sets
+assetsTest              Testing Normality of Multivariate Asset Sets
+binningPlot             Bivariate Histogram Plots of Assets
+boxPlot                 Displays a Box Plot of Assets
+covEllipsesPlot         Displays a Covariance Ellipses Plot
+fAssets-package         Analysing and Modelling Financial Assets
+histPlot                Histogram Plots of Assets
+pairsPlot               Assets Pairs Plot
+seriesPlot              Displays Series Plots of Assets.
+seriesPlots             Assets Risk Plots
+similarityPlot          Assets Similarity Plots
+starsPlot               Stars Plots of Assets.
+treePlot                Assets Tree Plot

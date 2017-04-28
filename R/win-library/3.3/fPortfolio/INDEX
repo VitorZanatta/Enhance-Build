@@ -1,0 +1,56 @@
+Data                    Nonlinear Objective Presettings
+amplModelOpen           AMPL Interface
+backtestPlot            Portfolio backtesting plots
+backtestStats           Rolling portfolio backtesting statistics
+covEstimator            Covariance Estimators
+dataSets                Assets Data Sets
+efficientPortfolio      Efficient Portfolios
+equidistWindows         User defined functions to perform portfolio
+                        backtesting
+fPFOLIOBACKTEST         Portfolio backtesting specifications
+fPFOLIOCON              Portfolio Constraints Handling
+fPFOLIODATA             Portfolio Data Handling
+fPFOLIOSPEC             Specification of Portfolios
+fPFOLIOVAL              Values of Portfolio Frontiers
+fPORTFOLIO              Portfolio Class
+fPortfolio              Portfolio Design, Optimization and Backtesting
+feasiblePortfolio       Feasible Portfolios
+frontierPlot            Efficient Frontier Plot
+frontierPlotControl     Frontier Plot Control List
+frontierPoints          Get Frontier Points
+getAlpha.fPFOLIOVAL     PortfolioVal Extractor Functions
+getData.fPFOLIODATA     Portfolio Data Extractor Functions
+getData.fPORTFOLIO      Portfolio Class Extractors
+getDefault              Extractor Functions
+getModel.fPFOLIOSPEC    Portfolio Specification Extractor Functions
+getWindows              Portfolio Backtest Extractors
+getWindows.fPFOLIOBACKTEST
+                        Portfolio backtest specification extractors
+markowitzHull           Surface Risk Analytics
+netPerformance          Portfolio backtesting net performance
+pfolioRisk              portfolioRisk
+plot-methods            plot-methods
+portfolioBacktest       Specification of portfolio backtesting
+portfolioBacktesting    Portfolio backtesting
+portfolioConstraints    Portfolio Constraints
+portfolioData2          portfolioData2
+portfolioFrontier       Efficient Portfolio Frontier
+portfolioRolling        Rolling Portfolio
+portfolioSpec           Specification of Portfolios
+print.solver            Print Method for Solvers
+rdonlp2NLP              Mathematical Non-Linear Programming
+riskPfolio              Risk and Related Measures for Portfolios
+rsolveLP                Mathematical Linear Programming
+rsolveQP                Mathematical Linear Programming
+sampleCOV               Risk Budgeting
+setBacktest             Specification of backtesting portfolios
+setSpec                 Settings for Specifications of Portfolios
+show-methods            Portfolio Print Methods
+solveRglpk.CVAR         LP, QP, and NLP Programming Solvers
+stabilityAnalytics      Monitoring Stability
+summary-methods         summary-methods
+ternaryMap              Creates and Plots a Ternary Map
+weightsLinePlot         Portfolio Weights Line Plots
+weightsPie              Portfolio Pie Plots
+weightsPlot             Portfolio Weights Bar Plots
+weightsSlider           Portfolio Weights Slider

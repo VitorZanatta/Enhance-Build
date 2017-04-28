@@ -1,0 +1,5 @@
+cubature-package	cubature-package
+adaptIntegrate	hcubature
+cubature	cubature-package
+hcubature	hcubature
+pcubature	hcubature

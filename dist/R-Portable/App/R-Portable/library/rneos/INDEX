@@ -1,0 +1,31 @@
+CreateNeosComm          Creating an object for communications with NEOS
+CreateXmlString         Inserting CDATA into XML-templates of NEOS
+NemailHelp              XML-RPC method emailHelp of Neos
+NeosAns-class           Class "NeosAns"
+NeosComm-class          Class "NeosComm"
+NeosJob-class           Class "NeosJob"
+NeosOff-class           Class "NeosOff"
+NeosXml-class           Class "NeosXml"
+NgetFinalResults        XML-RPC method getFinalResults of Neos
+NgetFinalResultsNonBlocking
+                        XML-RPC method getFinalResultsNonBlocking of
+                        Neos
+NgetIntermediateResults
+                        XML-RPC method getIntermediateResults of Neos
+NgetIntermediateResultsNonBlocking
+                        XML-RPC method
+                        getIntermediateResultsNonBlocking of Neos
+NgetJobInfo             XML-RPC method getJobInfo of Neos
+NgetJobStatus           XML-RPC method getJobStatus of Neos
+NgetSolverTemplate      XML-RPC method getSolverTemplate of Neos
+Nhelp                   XML-RPC method help of Neos
+NkillJob                XML-RPC method killJob of Neos
+NlistAllSolvers         XML-RPC method listAllSolvers of Neos
+NlistCategories         XML-RPC method listCategories of Neos
+NlistSolversInCategory
+                        XML-RPC method listSolversInCategory of Neos
+Nping                   XML-RPC method ping of Neos
+NprintQueue             XML-RPC method printQueue of Neos
+NsubmitJob              XML-RPC method submitJob of Neos
+Nversion                XML-RPC method version of Neos
+Nwelcome                XML-RPC method welcome of Neos

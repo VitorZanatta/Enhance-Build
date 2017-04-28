@@ -1,0 +1,21 @@
+################################################################################
+## Exports
+################################################################################
+exportPattern("^[^\\.]")
+
+################################################################################
+## Imports
+################################################################################
+import(timeDate)
+import(timeSeries)
+import(fBasics)
+import(fMultivar)
+import(robustbase)
+import(MASS)
+import(ecodist)
+import(mvnormtest)
+import(energy)
+
+# Only importing what we need from "sn" since it exports a function
+# called "vech"; as "fBasics" does...
+importFrom(sn, rmst, rmsn, rmsc)

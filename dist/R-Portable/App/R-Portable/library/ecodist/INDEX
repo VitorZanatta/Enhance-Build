@@ -1,0 +1,26 @@
+MRM                     Multiple Regression on distance Matrices
+bcdist                  Bray-Curtis distance
+bump                    Nine-bump spatial pattern
+cor2m                   Generates a correlation table between the
+                        variables of 2 matrices
+corgen                  Generate correlated data
+crosstab                Data formatting
+distance                Calculate dissimilarity/distance metrics
+ecodist-package         Dissimilarity-based functions for ecological
+                        analysis
+fixdmat                 Distance matrix conversion
+full                    Full symmetric matrix
+graze                   Site information and grazed vegetation data.
+lower                   Lower-triangular matrix
+mantel                  Mantel test
+mgram                   Mantel correlogram
+nmds                    Non-metric multidimensional scaling
+nmds.min                Find minimum stress configuration
+pco                     Principal coordinates analysis
+permresults             Mantel test results for number of permutations,
+                        correlation and dataset size.
+plot.mgram              Plot a Mantel correlogram
+plot.vf                 Plots fitted vectors onto an ordination diagram
+pmgram                  Partial Mantel correlogram
+residuals.mgram         Residuals of a Mantel correlogram
+vf                      Vector fitting
